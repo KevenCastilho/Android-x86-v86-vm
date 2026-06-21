@@ -12,7 +12,7 @@
     },
     "disk": {
         "type": "cdrom",
-        "base_path": "disk/android-x86-1.6-r2.iso",
+        "base_path": "disk/android-x86-1.6-r2/android-x86-1.6-r2.iso",
         "size": 54661120,
         "chunk_size": 1048576,
         "use_parts": true,
