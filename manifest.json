@@ -1,0 +1,543 @@
+﻿{
+    "name":  "Android x86 1.6-r2",
+    "mirror_for":  "copy.sh/v86 profile=android",
+    "strategy":  "copy.sh chunks + official ISO only for missing chunks after byte-for-byte validation",
+    "expected_size":  54661120,
+    "chunk_size":  1048576,
+    "chunk_count":  53,
+    "sha256":  "04bd0f0d1962e5e3cc8138a004f67757eec76f7327d3d09f7534e2e16308c48f",
+    "generated_at":  "2026-06-21T12:50:40-03:00",
+    "split_pattern":  "disk/android-x86-1.6-r2/{start}-{end}.iso",
+    "chunks":  [
+                   {
+                       "file":  "0-1048576.iso",
+                       "path":  "disk/android-x86-1.6-r2/0-1048576.iso",
+                       "url":  null,
+                       "start":  0,
+                       "end":  1048576,
+                       "size":  1048576,
+                       "sha256":  "b60e6255f45905969209a3f8dd7b3161cc533bc8254ff2ea6abbbd70699469f3",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/0-1048576.iso"
+                   },
+                   {
+                       "file":  "1048576-2097152.iso",
+                       "path":  "disk/android-x86-1.6-r2/1048576-2097152.iso",
+                       "url":  null,
+                       "start":  1048576,
+                       "end":  2097152,
+                       "size":  1048576,
+                       "sha256":  "847e4a826085cd041d1d781aa76581a28431f37d0fa2d2090a1332108508b73e",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/1048576-2097152.iso"
+                   },
+                   {
+                       "file":  "2097152-3145728.iso",
+                       "path":  "disk/android-x86-1.6-r2/2097152-3145728.iso",
+                       "url":  null,
+                       "start":  2097152,
+                       "end":  3145728,
+                       "size":  1048576,
+                       "sha256":  "e7c8c1fb5bc45893ddb84d6d5bb90fede41625806b11995152985253257d4973",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/2097152-3145728.iso"
+                   },
+                   {
+                       "file":  "3145728-4194304.iso",
+                       "path":  "disk/android-x86-1.6-r2/3145728-4194304.iso",
+                       "url":  null,
+                       "start":  3145728,
+                       "end":  4194304,
+                       "size":  1048576,
+                       "sha256":  "9142bf0e2635b3c9f000f1b3bbf57756d96d8f04e56757c9221478551198f282",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/3145728-4194304.iso"
+                   },
+                   {
+                       "file":  "4194304-5242880.iso",
+                       "path":  "disk/android-x86-1.6-r2/4194304-5242880.iso",
+                       "url":  null,
+                       "start":  4194304,
+                       "end":  5242880,
+                       "size":  1048576,
+                       "sha256":  "e696340427e0df71b2a12645511617a32c50c90231791551791608f6be96a9fb",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/4194304-5242880.iso"
+                   },
+                   {
+                       "file":  "5242880-6291456.iso",
+                       "path":  "disk/android-x86-1.6-r2/5242880-6291456.iso",
+                       "url":  null,
+                       "start":  5242880,
+                       "end":  6291456,
+                       "size":  1048576,
+                       "sha256":  "70f60ac73b6daf3fc09b0eda701f10ad121585eb808aba3ed4adb5c308b361c8",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/5242880-6291456.iso"
+                   },
+                   {
+                       "file":  "6291456-7340032.iso",
+                       "path":  "disk/android-x86-1.6-r2/6291456-7340032.iso",
+                       "url":  null,
+                       "start":  6291456,
+                       "end":  7340032,
+                       "size":  1048576,
+                       "sha256":  "21cb13e72ec872a92b1e5d565f1960c667daa649fbfcaeb193da2d2f31aa06a8",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/6291456-7340032.iso"
+                   },
+                   {
+                       "file":  "7340032-8388608.iso",
+                       "path":  "disk/android-x86-1.6-r2/7340032-8388608.iso",
+                       "url":  null,
+                       "start":  7340032,
+                       "end":  8388608,
+                       "size":  1048576,
+                       "sha256":  "e107405c8c7e9e77e551dcde07ab0e7575ce8258de8fcd50f30b589e0318ff54",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/7340032-8388608.iso"
+                   },
+                   {
+                       "file":  "8388608-9437184.iso",
+                       "path":  "disk/android-x86-1.6-r2/8388608-9437184.iso",
+                       "url":  null,
+                       "start":  8388608,
+                       "end":  9437184,
+                       "size":  1048576,
+                       "sha256":  "7779f6a0bee32a69fea9008aca3f1ed7052c9c61e915a55238facc0566a1ad0b",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/8388608-9437184.iso"
+                   },
+                   {
+                       "file":  "9437184-10485760.iso",
+                       "path":  "disk/android-x86-1.6-r2/9437184-10485760.iso",
+                       "url":  null,
+                       "start":  9437184,
+                       "end":  10485760,
+                       "size":  1048576,
+                       "sha256":  "e4ffd481ab5a358b79cac04e8009bd395dd88957f03bea6cf6a4eac9f1f7a2a7",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/9437184-10485760.iso"
+                   },
+                   {
+                       "file":  "10485760-11534336.iso",
+                       "path":  "disk/android-x86-1.6-r2/10485760-11534336.iso",
+                       "url":  null,
+                       "start":  10485760,
+                       "end":  11534336,
+                       "size":  1048576,
+                       "sha256":  "9c065c3217c13e6e1ba572846f95336739883acc6fc8f58faa038c61cecf5a52",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/10485760-11534336.iso"
+                   },
+                   {
+                       "file":  "11534336-12582912.iso",
+                       "path":  "disk/android-x86-1.6-r2/11534336-12582912.iso",
+                       "url":  null,
+                       "start":  11534336,
+                       "end":  12582912,
+                       "size":  1048576,
+                       "sha256":  "c857ddfe2927f22b01ae6e84461ea6ad6d1c4c21e5968f9e5e73b27181656956",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/11534336-12582912.iso"
+                   },
+                   {
+                       "file":  "12582912-13631488.iso",
+                       "path":  "disk/android-x86-1.6-r2/12582912-13631488.iso",
+                       "url":  null,
+                       "start":  12582912,
+                       "end":  13631488,
+                       "size":  1048576,
+                       "sha256":  "61bebbd71314bb83d027662777f12244551def8a70a130d840799a7a6a30ce62",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/12582912-13631488.iso"
+                   },
+                   {
+                       "file":  "13631488-14680064.iso",
+                       "path":  "disk/android-x86-1.6-r2/13631488-14680064.iso",
+                       "url":  null,
+                       "start":  13631488,
+                       "end":  14680064,
+                       "size":  1048576,
+                       "sha256":  "8f0ebabce72a7d91f47222a6e686584de04ba6e51b0f29aa429b41b6da517609",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/13631488-14680064.iso"
+                   },
+                   {
+                       "file":  "14680064-15728640.iso",
+                       "path":  "disk/android-x86-1.6-r2/14680064-15728640.iso",
+                       "url":  null,
+                       "start":  14680064,
+                       "end":  15728640,
+                       "size":  1048576,
+                       "sha256":  "64a495988637f04e2371969a1fc002f194ebb8b521f2a0154d4a55061fce6617",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/14680064-15728640.iso"
+                   },
+                   {
+                       "file":  "15728640-16777216.iso",
+                       "path":  "disk/android-x86-1.6-r2/15728640-16777216.iso",
+                       "url":  null,
+                       "start":  15728640,
+                       "end":  16777216,
+                       "size":  1048576,
+                       "sha256":  "823a1c94da94329f5361904eb590aee7f1a093003211067ed03e88fb15f8205d",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/15728640-16777216.iso"
+                   },
+                   {
+                       "file":  "16777216-17825792.iso",
+                       "path":  "disk/android-x86-1.6-r2/16777216-17825792.iso",
+                       "url":  null,
+                       "start":  16777216,
+                       "end":  17825792,
+                       "size":  1048576,
+                       "sha256":  "be84dda47e5ca296c530d429c77810cda40a5ffbce4b68d2f02b239376fa741a",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/16777216-17825792.iso"
+                   },
+                   {
+                       "file":  "17825792-18874368.iso",
+                       "path":  "disk/android-x86-1.6-r2/17825792-18874368.iso",
+                       "url":  null,
+                       "start":  17825792,
+                       "end":  18874368,
+                       "size":  1048576,
+                       "sha256":  "d845828d91d5ee407c7268ac23c371dfb5f6bb17ff654515bd4c1a0dbcd9e8ad",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/17825792-18874368.iso"
+                   },
+                   {
+                       "file":  "18874368-19922944.iso",
+                       "path":  "disk/android-x86-1.6-r2/18874368-19922944.iso",
+                       "url":  null,
+                       "start":  18874368,
+                       "end":  19922944,
+                       "size":  1048576,
+                       "sha256":  "85766286c3e1745b44b251ae40c94308045204af1c078f3c0ebbe52b79d191fa",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/18874368-19922944.iso"
+                   },
+                   {
+                       "file":  "19922944-20971520.iso",
+                       "path":  "disk/android-x86-1.6-r2/19922944-20971520.iso",
+                       "url":  null,
+                       "start":  19922944,
+                       "end":  20971520,
+                       "size":  1048576,
+                       "sha256":  "86266f92bfa34edae4c4de0daa79f9f573ccefdadb31ebaecd7798fb6fe4c7bf",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/19922944-20971520.iso"
+                   },
+                   {
+                       "file":  "20971520-22020096.iso",
+                       "path":  "disk/android-x86-1.6-r2/20971520-22020096.iso",
+                       "url":  null,
+                       "start":  20971520,
+                       "end":  22020096,
+                       "size":  1048576,
+                       "sha256":  "c4baf1b9a4caffda6d1ee8172c64ecb39bcff732dafc29f6711b2ac4d75ef4a8",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/20971520-22020096.iso"
+                   },
+                   {
+                       "file":  "22020096-23068672.iso",
+                       "path":  "disk/android-x86-1.6-r2/22020096-23068672.iso",
+                       "url":  null,
+                       "start":  22020096,
+                       "end":  23068672,
+                       "size":  1048576,
+                       "sha256":  "4a6cd6c6685ff700786f1f22923293c03c3e7237fefc62882df1e65ee58b336e",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/22020096-23068672.iso"
+                   },
+                   {
+                       "file":  "23068672-24117248.iso",
+                       "path":  "disk/android-x86-1.6-r2/23068672-24117248.iso",
+                       "url":  null,
+                       "start":  23068672,
+                       "end":  24117248,
+                       "size":  1048576,
+                       "sha256":  "25a5bad418c1a717f1dfd75390a817dd498745bf7bf2299600d45997fe63ab94",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/23068672-24117248.iso"
+                   },
+                   {
+                       "file":  "24117248-25165824.iso",
+                       "path":  "disk/android-x86-1.6-r2/24117248-25165824.iso",
+                       "url":  null,
+                       "start":  24117248,
+                       "end":  25165824,
+                       "size":  1048576,
+                       "sha256":  "4a546b41664c4e30b1292440c3d8a330de89d1dbdc5052635fb8b788130e71b7",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/24117248-25165824.iso"
+                   },
+                   {
+                       "file":  "25165824-26214400.iso",
+                       "path":  "disk/android-x86-1.6-r2/25165824-26214400.iso",
+                       "url":  null,
+                       "start":  25165824,
+                       "end":  26214400,
+                       "size":  1048576,
+                       "sha256":  "0f7c75ba989d02243746f3a312226b1deef03f3e6e0b4ecd583fbc41a19d5d90",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/25165824-26214400.iso"
+                   },
+                   {
+                       "file":  "26214400-27262976.iso",
+                       "path":  "disk/android-x86-1.6-r2/26214400-27262976.iso",
+                       "url":  null,
+                       "start":  26214400,
+                       "end":  27262976,
+                       "size":  1048576,
+                       "sha256":  "d943c890b3e9b508dc798f9408ba335fd801a04d30faecf77e146268a3ca8848",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/26214400-27262976.iso"
+                   },
+                   {
+                       "file":  "27262976-28311552.iso",
+                       "path":  "disk/android-x86-1.6-r2/27262976-28311552.iso",
+                       "url":  null,
+                       "start":  27262976,
+                       "end":  28311552,
+                       "size":  1048576,
+                       "sha256":  "43a0287caf829dcf651e158caa58d3b835f613e52619e1b48136ccbeb0bcaade",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/27262976-28311552.iso"
+                   },
+                   {
+                       "file":  "28311552-29360128.iso",
+                       "path":  "disk/android-x86-1.6-r2/28311552-29360128.iso",
+                       "url":  null,
+                       "start":  28311552,
+                       "end":  29360128,
+                       "size":  1048576,
+                       "sha256":  "5b68fcf437d45f67e0458264d79d4ebe9b7a64d14ef00bacced7569d89e56085",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/28311552-29360128.iso"
+                   },
+                   {
+                       "file":  "29360128-30408704.iso",
+                       "path":  "disk/android-x86-1.6-r2/29360128-30408704.iso",
+                       "url":  null,
+                       "start":  29360128,
+                       "end":  30408704,
+                       "size":  1048576,
+                       "sha256":  "1d8d28a5f9599419ec914644bc43f8581ed701eba4ea15eabf6d587631c7488e",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/29360128-30408704.iso"
+                   },
+                   {
+                       "file":  "30408704-31457280.iso",
+                       "path":  "disk/android-x86-1.6-r2/30408704-31457280.iso",
+                       "url":  null,
+                       "start":  30408704,
+                       "end":  31457280,
+                       "size":  1048576,
+                       "sha256":  "2f7872f38629c6edc5273eb9640fd1b003de477db396383149f008dbf05da647",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/30408704-31457280.iso"
+                   },
+                   {
+                       "file":  "31457280-32505856.iso",
+                       "path":  "disk/android-x86-1.6-r2/31457280-32505856.iso",
+                       "url":  null,
+                       "start":  31457280,
+                       "end":  32505856,
+                       "size":  1048576,
+                       "sha256":  "1a6039634535f2a2dfe20296dfd2acda66c5c63e7ab4062b0f5544a928e8c688",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/31457280-32505856.iso"
+                   },
+                   {
+                       "file":  "32505856-33554432.iso",
+                       "path":  "disk/android-x86-1.6-r2/32505856-33554432.iso",
+                       "url":  null,
+                       "start":  32505856,
+                       "end":  33554432,
+                       "size":  1048576,
+                       "sha256":  "c2c34e177e6315062b132da629e3102a11abc40d8b1535eca22d0f6568eb51d3",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/32505856-33554432.iso"
+                   },
+                   {
+                       "file":  "33554432-34603008.iso",
+                       "path":  "disk/android-x86-1.6-r2/33554432-34603008.iso",
+                       "url":  null,
+                       "start":  33554432,
+                       "end":  34603008,
+                       "size":  1048576,
+                       "sha256":  "bbfae92bf3aaccf8d780235ab23b58bedd6adae6a2c77772fb7517a583d7a723",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/33554432-34603008.iso"
+                   },
+                   {
+                       "file":  "34603008-35651584.iso",
+                       "path":  "disk/android-x86-1.6-r2/34603008-35651584.iso",
+                       "url":  null,
+                       "start":  34603008,
+                       "end":  35651584,
+                       "size":  1048576,
+                       "sha256":  "6f273987c9d1d033e6d1d0c41597b20cfa3819d1b20e8c1b228d088ed63ea265",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/34603008-35651584.iso"
+                   },
+                   {
+                       "file":  "35651584-36700160.iso",
+                       "path":  "disk/android-x86-1.6-r2/35651584-36700160.iso",
+                       "url":  null,
+                       "start":  35651584,
+                       "end":  36700160,
+                       "size":  1048576,
+                       "sha256":  "d4845759f264b317b44c9728eda6cadfc74e70c48e0d808428daac3c225be4a4",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/35651584-36700160.iso"
+                   },
+                   {
+                       "file":  "36700160-37748736.iso",
+                       "path":  "disk/android-x86-1.6-r2/36700160-37748736.iso",
+                       "url":  null,
+                       "start":  36700160,
+                       "end":  37748736,
+                       "size":  1048576,
+                       "sha256":  "f399424c0923ffd7091c40ada659e0668a941792236c6d4fea3a7b924ac67192",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/36700160-37748736.iso"
+                   },
+                   {
+                       "file":  "37748736-38797312.iso",
+                       "path":  "disk/android-x86-1.6-r2/37748736-38797312.iso",
+                       "url":  null,
+                       "start":  37748736,
+                       "end":  38797312,
+                       "size":  1048576,
+                       "sha256":  "54d7e34edd8c82d3ab8696c6da06c42058603333155995bf948b41f42f49f961",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/37748736-38797312.iso"
+                   },
+                   {
+                       "file":  "38797312-39845888.iso",
+                       "path":  "disk/android-x86-1.6-r2/38797312-39845888.iso",
+                       "url":  null,
+                       "start":  38797312,
+                       "end":  39845888,
+                       "size":  1048576,
+                       "sha256":  "d086928484598e8eaeb2fe4fd3d0b84ef1893c905a8be872ca1d2a0b97d30e19",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/38797312-39845888.iso"
+                   },
+                   {
+                       "file":  "39845888-40894464.iso",
+                       "path":  "disk/android-x86-1.6-r2/39845888-40894464.iso",
+                       "url":  null,
+                       "start":  39845888,
+                       "end":  40894464,
+                       "size":  1048576,
+                       "sha256":  "5dd16e991e01dfef4e118018bdf60b3c37cb746e1f251ba15d966aff8e6d78c0",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/39845888-40894464.iso"
+                   },
+                   {
+                       "file":  "40894464-41943040.iso",
+                       "path":  "disk/android-x86-1.6-r2/40894464-41943040.iso",
+                       "url":  null,
+                       "start":  40894464,
+                       "end":  41943040,
+                       "size":  1048576,
+                       "sha256":  "cfaa91a6936b807181b34ddafd67f5c3d1944afe59d4b2e5339ef561a83ed866",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/40894464-41943040.iso"
+                   },
+                   {
+                       "file":  "41943040-42991616.iso",
+                       "path":  "disk/android-x86-1.6-r2/41943040-42991616.iso",
+                       "url":  null,
+                       "start":  41943040,
+                       "end":  42991616,
+                       "size":  1048576,
+                       "sha256":  "d562344c86d7bdeebea8dfaa9d9a8412f25a50a2a0d0f0244e1a7967994d3f7e",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/41943040-42991616.iso"
+                   },
+                   {
+                       "file":  "42991616-44040192.iso",
+                       "path":  "disk/android-x86-1.6-r2/42991616-44040192.iso",
+                       "url":  null,
+                       "start":  42991616,
+                       "end":  44040192,
+                       "size":  1048576,
+                       "sha256":  "9719b193fd81a91638e2cdfb716fad9307a0894244343bc7b937ac7736670aae",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/42991616-44040192.iso"
+                   },
+                   {
+                       "file":  "44040192-45088768.iso",
+                       "path":  "disk/android-x86-1.6-r2/44040192-45088768.iso",
+                       "url":  null,
+                       "start":  44040192,
+                       "end":  45088768,
+                       "size":  1048576,
+                       "sha256":  "29739e8b6651437acaae1c94d9dd10d75985bc0e264b13157f089cd43312f0da",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/44040192-45088768.iso"
+                   },
+                   {
+                       "file":  "45088768-46137344.iso",
+                       "path":  "disk/android-x86-1.6-r2/45088768-46137344.iso",
+                       "url":  null,
+                       "start":  45088768,
+                       "end":  46137344,
+                       "size":  1048576,
+                       "sha256":  "9935aa16322f386204d84ef95f8ca8f2790cb36d0fd75950fc8312144623e1c9",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/45088768-46137344.iso"
+                   },
+                   {
+                       "file":  "46137344-47185920.iso",
+                       "path":  "disk/android-x86-1.6-r2/46137344-47185920.iso",
+                       "url":  null,
+                       "start":  46137344,
+                       "end":  47185920,
+                       "size":  1048576,
+                       "sha256":  "4259c96e4e1490eb045ea8bc7887ab4e607f599b2a547b703e2936f44a377563",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/46137344-47185920.iso"
+                   },
+                   {
+                       "file":  "47185920-48234496.iso",
+                       "path":  "disk/android-x86-1.6-r2/47185920-48234496.iso",
+                       "url":  null,
+                       "start":  47185920,
+                       "end":  48234496,
+                       "size":  1048576,
+                       "sha256":  "094436cdd5799cce165184b88adeaed0e7af1b77624aee61ca6a1d03c31abbe1",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/47185920-48234496.iso"
+                   },
+                   {
+                       "file":  "48234496-49283072.iso",
+                       "path":  "disk/android-x86-1.6-r2/48234496-49283072.iso",
+                       "url":  null,
+                       "start":  48234496,
+                       "end":  49283072,
+                       "size":  1048576,
+                       "sha256":  "852e78406da7e9a81de21afe4cfb3225034f1f1aad0b80cbc838109d4c07e773",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/48234496-49283072.iso"
+                   },
+                   {
+                       "file":  "49283072-50331648.iso",
+                       "path":  "disk/android-x86-1.6-r2/49283072-50331648.iso",
+                       "url":  null,
+                       "start":  49283072,
+                       "end":  50331648,
+                       "size":  1048576,
+                       "sha256":  "15cd0435df7387b58ce83eb9cc0f216d7fc593f1b1bc179388d4bff4403f1c78",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/49283072-50331648.iso"
+                   },
+                   {
+                       "file":  "50331648-51380224.iso",
+                       "path":  "disk/android-x86-1.6-r2/50331648-51380224.iso",
+                       "url":  null,
+                       "start":  50331648,
+                       "end":  51380224,
+                       "size":  1048576,
+                       "sha256":  "aa16652273577f31d7a2bb59c61d122a5042c25baa6a55c8e1ec8b24293dfa1b",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/50331648-51380224.iso"
+                   },
+                   {
+                       "file":  "51380224-52428800.iso",
+                       "path":  "disk/android-x86-1.6-r2/51380224-52428800.iso",
+                       "url":  null,
+                       "start":  51380224,
+                       "end":  52428800,
+                       "size":  1048576,
+                       "sha256":  "0284c02796db82f72242597ba9cf5f1dd5c8e16f6823cb7d21c16751980f33d8",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/51380224-52428800.iso"
+                   },
+                   {
+                       "file":  "52428800-53477376.iso",
+                       "path":  "disk/android-x86-1.6-r2/52428800-53477376.iso",
+                       "url":  null,
+                       "start":  52428800,
+                       "end":  53477376,
+                       "size":  1048576,
+                       "sha256":  "870040e6fa3e86c3f9eff96d7f40a8d4130acfd951660fa5c1e443ac45c4c660",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/52428800-53477376.iso"
+                   },
+                   {
+                       "file":  "53477376-54525952.iso",
+                       "path":  "disk/android-x86-1.6-r2/53477376-54525952.iso",
+                       "url":  null,
+                       "start":  53477376,
+                       "end":  54525952,
+                       "size":  1048576,
+                       "sha256":  "7c9deaf950ace98dd49469f1f217fa59368487d9e64f121d1abb10e6ef16d92c",
+                       "origin":  "copy.sh:https://i.copy.sh/android-x86-1.6-r2/53477376-54525952.iso"
+                   },
+                   {
+                       "file":  "54525952-54661120.iso",
+                       "path":  "disk/android-x86-1.6-r2/54525952-54661120.iso",
+                       "url":  null,
+                       "start":  54525952,
+                       "end":  54661120,
+                       "size":  135168,
+                       "sha256":  "74518f204d46de660dff3ed003e92476bad8c691ba392453fc1c7532cc856018",
+                       "origin":  "official_iso_after_copysh_byte_check:local:C:\\Users\\angelusinferni\\Downloads\\android-x86-1.6-r2.iso"
+                   }
+               ]
+}
