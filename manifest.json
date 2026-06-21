@@ -1,31 +1,31 @@
-﻿{
-    "format":  "maniac-vm-v86-v1",
-    "generated_at":  "2026-06-21T12:59:02-03:00",
-    "profile":  {
-                    "provider":  "copy.sh",
-                    "profile_id":  "android",
-                    "source_profile_url":  "https://copy.sh/v86/?profile=android",
-                    "source_revision":  ""
-                },
-    "runtime":  {
-                    "local_revision":  "4e4bf556350916a9a5139a4b3756af0971d56f8c"
-                },
-    "disk":  {
-                 "type":  "cdrom",
-                 "base_path":  "disk/android-x86-1.6-r2/android-x86-1.6-r2.iso",
-                 "size":  54661120,
-                 "chunk_size":  0,
-                 "use_parts":  false,
-                 "part_count":  1,
-                 "parts":  [
-                               {
-                                   "path":  "disk/android-x86-1.6-r2/android-x86-1.6-r2.iso",
-                                   "size":  54661120,
-                                   "sha256":  "04bd0f0d1962e5e3cc8138a004f67757eec76f7327d3d09f7534e2e16308c48f",
-                                   "start":  null,
-                                   "end":  null
-                               }
-                           ]
-             },
-    "snapshot":  null
+{
+    "format": "maniac-vm-v86-v1",
+    "generated_at": "2026-06-21T12:59:02-03:00",
+    "profile": {
+        "provider": "copy.sh",
+        "profile_id": "android",
+        "source_profile_url": "https://copy.sh/v86/?profile=android",
+        "source_revision": ""
+    },
+    "runtime": {
+        "local_revision": "4e4bf556350916a9a5139a4b3756af0971d56f8c"
+    },
+    "disk": {
+        "type": "cdrom",
+        "base_path": "disk/android-x86-1.6-r2/android-x86-1.6-r2.iso",
+        "size": 54661120,
+        "chunk_size": 0,
+        "use_parts": false,
+        "part_count": 1,
+        "parts": [
+            {
+                "path": "disk/android-x86-1.6-r2/android-x86-1.6-r2.iso",
+                "size": 54661120,
+                "sha256": "04bd0f0d1962e5e3cc8138a004f67757eec76f7327d3d09f7534e2e16308c48f",
+                "start": null,
+                "end": null
+            }
+        ]
+    },
+    "snapshot": null
 }
